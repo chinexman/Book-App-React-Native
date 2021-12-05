@@ -10,8 +10,17 @@ const styles = StyleSheet.create({
     resizeMode: 'cover',
     borderRadius: 10,
   },
+  title: {
+    fontWeight: 'bold',
+  },
+  author: {
+    fontWeight: 'bold',
+  },
+  head: {
+    fontWeight: 'bold',
+  },
 
-  noOfStock: {
+  rating: {
     marginVertical: 10,
     color: '#5b5b5b',
   },
@@ -26,7 +35,13 @@ const styles = StyleSheet.create({
   
   title: {
     fontWeight: 'bold',
-  }
+  },
+  head: {
+    fontWeight: 'bold',
+  },
+  title: {
+    fontWeight: 'bold',
+  },
   
 });
 

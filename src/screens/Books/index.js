@@ -10,6 +10,7 @@ const Books = () => {
 
              {/* <Book book={Library1} /> */}
             <FlatList
+            style={styles.flat}
                 data={Library}
                 renderItem={({item})=><Book book={item} />}
                 contentContainerStyle={{

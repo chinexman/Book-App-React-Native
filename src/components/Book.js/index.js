@@ -18,6 +18,7 @@ const Book = (props) => {
                     
                   }
             )}>
+                <View  style={styles.bookview}>
       <Image
         style={styles.image}
         source={{uri: book.image}}
@@ -28,11 +29,11 @@ const Book = (props) => {
           {book.type}.{book.title} 
       </Text>
          
-
-      {/*  Total price */}
+      </View>
 
     
     </Pressable>
+    
         </View>
     )
 }

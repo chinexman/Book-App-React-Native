@@ -21,22 +21,18 @@ console.log(book.image)
   </Text>
 
   <Text style={styles.author}>
-      {book.author} 
+     by {book.author} 
   </Text>
-      {/* Type & Description */}
-      <Text style={styles.description} numberOfLines={2}>
+  <Text style={styles.rating}>
+    {book.rating} 
+  </Text>
+     <Text style={styles.head} numberOfLines={4}>
+         description:
+     <Text style={styles.description} >
      {book.description}
   </Text>
 
-
-  {/* Bed & Bedroom  */}
-  <Text style={styles.rating}>
-    {book.rating} copy
-  </Text>
-
-
-
-  {/*  Old price & new price */}
+     </Text>
   <Text style={styles.price}>
     ${book.price}
   </Text>
