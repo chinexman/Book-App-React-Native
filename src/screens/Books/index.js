@@ -1,25 +1,21 @@
-import React from 'react'
-import { SafeAreaView ,View, Text,FlatList,StyleSheet } from 'react-native'
-import Library from '../../../assets/data/Library'
-import Book from '../../components/Book.js/index.js'
-import styles from './styles'
-const Library1 = Library[0]
+import React from 'react';
+import {SafeAreaView, View, Text, FlatList, StyleSheet} from 'react-native';
+import Library from '../../../assets/data/Library';
+import Book from '../../components/Book.js/index.js';
+import styles from './styles';
+const Library1 = Library[0];
 const Books = () => {
-    return (
-         <View style={styles.container}>   
+  return (
+    <View style={styles.container}>
+      <FlatList
+        data={Library}
+        renderItem={({item}) => <Book book={item} />}
+        contentContainerStyle={{
+          flexGrow: 1,
+        }}
+      />
+    </View>
+  );
+};
 
-             {/* <Book book={Library1} /> */}
-            <FlatList
-            style={styles.flat}
-                data={Library}
-                renderItem={({item})=><Book book={item} />}
-                contentContainerStyle={{
-                    flexGrow: 1,
-                    }}
-            /> 
-            </View> 
-    )
-}
-
-export default Books
-
+export default Books;
