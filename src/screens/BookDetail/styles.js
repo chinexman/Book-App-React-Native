@@ -31,6 +31,7 @@ const styles = StyleSheet.create({
   price: {
     fontSize: 18,
     marginVertical: 10,
+    fontWeight: 'bold',
   },
   
   title: {
@@ -39,9 +40,7 @@ const styles = StyleSheet.create({
   head: {
     fontWeight: 'bold',
   },
-  title: {
-    fontWeight: 'bold',
-  },
+ 
   
 });
 

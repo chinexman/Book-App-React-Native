@@ -23,6 +23,7 @@ console.log(book.image)
   <Text style={styles.author}>
      by {book.author} 
   </Text>
+ 
   <Text style={styles.rating}>
     {book.rating} 
   </Text>
