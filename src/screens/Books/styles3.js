@@ -17,34 +17,17 @@ const styles = StyleSheet.create({
   imagetour:{
     width: '100%',
     height: '100%',
-    // flex: 1,
-    // resizeMode: "contain",
-    // opacity: 0.9,
-    // tintColor: '#F9B404',
-        // justifyContent: 'flex-start',
-        alignSelf: 'stretch',
 
-
+  
+     justifyContent: 'flex-start',
+       
     
   },
-  imagetour1:{
-    width: '100%',
-    height: '100%',
-    // flex: 1,
-    // resizeMode: "contain",
-    // opacity: 0.9,
-    // tintColor: '#F9B404',
-         justifyContent: 'flex-start',
-        alignSelf: 'stretch',
-
-
-    
-  },
-
-   imagetourbottom:{
+  imagetourbottom:{
     width: '100%',
     height: '80%',
-    
+    // resizeMode: 'cover',
+
   
      justifyContent: 'flex-end',
        
@@ -126,29 +109,21 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFFFFF',
     alignItems: 'flex-start',
     // justifyContent: 'flex-start',
-    resizeMode:'cover',
     zIndex: 100,
+  },
 
-  },
-  wholemodal:{
-    resizeMode:'stretch',
-    backgroundColor:'#F9B404',
-  },
   imagebackground: {
-    flex:1,
     width: Dimensions.get('screen').width ,
     // marginHorizontal: 10,
     // borderRadius: 30,
     //  marginTop: '50%',
-    // marginBottom:'50%',
-     height: Dimensions.get('screen').height,
+     height:'100%',
+     //height: Dimensions.get('screen').height,
     // backgroundColor: '#FFFFFF',
     alignItems: 'flex-end',
-              //  resizeMode: "contain",
-              //  flex: 1,
-              //  alignSelf: 'stretch',
-            
-    //justifyContent: 'flex-start',
+     resizeMode: 'cover',
+
+    // justifyContent: 'flex-start',
     // zIndex: 100,
   },
   // login2: {

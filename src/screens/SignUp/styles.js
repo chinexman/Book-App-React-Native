@@ -20,6 +20,7 @@ const styles = StyleSheet.create({
     width: Dimensions.get('screen').width - 20,
     marginHorizontal: 10,
     borderRadius: 30,
+    marginBottom:40,
     paddingTop: 10,
     height: '50%',
     backgroundColor: '#fff',
@@ -64,6 +65,15 @@ const styles = StyleSheet.create({
 
     // backgroundColor: '#1c315c',
   },
+  errorMsg: {
+    color: '#FF0000',
+    fontSize: 14,
+},
+title1: {
+  fontSize: 16,
+  fontWeight: 'bold',
+  color: '#FFF',
+},
 });
 
 export default styles;

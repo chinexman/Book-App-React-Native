@@ -10,6 +10,10 @@ const Book = props => {
   // console.log(book);
   return (
     <View style={styles.container}>
+     
+
+
+      
       <Pressable
         onPress={() =>
           navigation.navigate('BookDetail', {

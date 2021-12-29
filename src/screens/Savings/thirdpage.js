@@ -1,37 +1,9 @@
-import React, {useState} from 'react';
-import {
-  View,
-  Text,
-  TextInput,
-  Pressable,
-  ImageBackground,
-  Image,
-  ScrollView
-} from 'react-native';
-import {Picker} from '@react-native-picker/picker';
+import React from 'react'
+import { View, Text } from 'react-native'
 
-import styles from './styles';
-import {useNavigation} from '@react-navigation/native';
-import {Modal} from 'react-native';
-
-const Login = () => {
-  const [modalVisible, setModalVisible] = useState(true);
-  const [modalVisible2, setModalVisible2] = useState(true);
-
-  const [modalnumber, setModalnumber] = useState(0);
-
-  const navigation = useNavigation();
-
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [selectedValue1, setSelectedValue1] = useState("java");
-  const [selectedValue2, setSelectedValue2] = useState("java");
-  const [selectedValue3, setSelectedValue3] = useState("java");
-
-
-
-  return (
-    <View style={styles.container}>
+const thirdpage = () => {
+    return (
+        <View style={styles.container}>
       <View style={styles.frequencyheading}>
         
         
@@ -108,31 +80,9 @@ const Login = () => {
             </View>
       </View>
 
-      {/* <Text style={styles.bodytext}>Earn of to 10% per annum</Text>
-            <Pressable style={styles.buttonstrict}>
-                <Text style={styles.buttonstricttext}>Start Saving</Text>
-            </Pressable>
-
-            <View style={styles.buttom}>
-                <View style={styles.innerbuttom}></View>
-            </View> 
-            */}
+     
     </View>
-  );
-};
-
-export default Login;
-
-{
-  /* <View style={styles.login2}>
-            <View style={styles.logo2cover}>
-            <Image
-             style={styles.logo1}
-             source={require('../../../assets/images/Vector.jpg')}
-             />
-            </View>
-          
-            <Text style = {styles.modalheading}>Notifications</Text>
-            <Text>Get the Lastest Update</Text>
-        </View> */
+    )
 }
+
+export default thirdpage

@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
     width: '90%',
     // marginHorizontal: 10,
     marginLeft: '5%',
-    marginTop: '20%',
+    // marginTop: '20%',
     backgroundColor: '#fff',
     height: '100%',
     borderRadius: 15,

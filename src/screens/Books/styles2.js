@@ -6,49 +6,9 @@ const styles = StyleSheet.create({
   },
   image: {
     width: '100%',
-    height: '100%',
+    height: 700,
     resizeMode: 'cover',
-    backgroundColor: 'rgb(255,0,0)'
-     //justifyContent: 'flex-end',
-     //opacity: 0.6,
-
-  },
-
-  imagetour:{
-    width: '100%',
-    height: '100%',
-    // flex: 1,
-    // resizeMode: "contain",
-    // opacity: 0.9,
-    // tintColor: '#F9B404',
-        // justifyContent: 'flex-start',
-        alignSelf: 'stretch',
-
-
-    
-  },
-  imagetour1:{
-    width: '100%',
-    height: '100%',
-    // flex: 1,
-    // resizeMode: "contain",
-    // opacity: 0.9,
-    // tintColor: '#F9B404',
-         justifyContent: 'flex-start',
-        alignSelf: 'stretch',
-
-
-    
-  },
-
-   imagetourbottom:{
-    width: '100%',
-    height: '80%',
-    
-  
-     justifyContent: 'flex-end',
-       
-    
+    justifyContent: 'center',
   },
   logo1: {
     width: 37,
@@ -112,44 +72,16 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
 
   },
-
-  // position1:{
-
-  // },
   login2: {
     width: Dimensions.get('screen').width - 20,
     marginHorizontal: 10,
     borderRadius: 30,
-        marginTop: '10%',
-  //  marginBottom:'90%',
-      height: 184,
+    //  marginTop: '50%',
+     height: '100%',
     backgroundColor: '#FFFFFF',
     alignItems: 'flex-start',
     // justifyContent: 'flex-start',
-    resizeMode:'cover',
     zIndex: 100,
-
-  },
-  wholemodal:{
-    resizeMode:'stretch',
-    backgroundColor:'#F9B404',
-  },
-  imagebackground: {
-    flex:1,
-    width: Dimensions.get('screen').width ,
-    // marginHorizontal: 10,
-    // borderRadius: 30,
-    //  marginTop: '50%',
-    // marginBottom:'50%',
-     height: Dimensions.get('screen').height,
-    // backgroundColor: '#FFFFFF',
-    alignItems: 'flex-end',
-              //  resizeMode: "contain",
-              //  flex: 1,
-              //  alignSelf: 'stretch',
-            
-    //justifyContent: 'flex-start',
-    // zIndex: 100,
   },
   // login2: {
   //   width: Dimensions.get('screen').width - 20,
